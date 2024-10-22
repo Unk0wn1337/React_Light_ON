@@ -7,7 +7,7 @@ function JatekTer(props){
         <div className="ter">
             {
                 props.lista.map((elem,index) => {
-                    return(<Cella jel={elem}/>)
+                    return(<Cella jel={elem} index={index} key={index}/>)
                 })
             }
         </div>

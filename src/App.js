@@ -1,24 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import JatekTer from './components/Jatekter';
+import { useContext } from 'react';
+import { KattContext } from './context/KattContext';
 
 function App() {
-
-  const lista = [
-    false,
-    true,
-    false,
-    true,
-    false,
-    true,
-    false,
-    true,
-    false,
-  ];
-
-    function katt(adat){
-      
-    }
+    const {lista} = useContext(KattContext)
+  
 
 
 

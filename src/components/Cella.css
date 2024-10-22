@@ -5,3 +5,15 @@
     border-radius: 45%;
     
 }
+
+.lekapcsolva{
+    border-radius: 45%;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+.felkapcsolva{
+    border-radius: 45%;
+    border: 1px solid black;
+    background-color: yellow;
+}
